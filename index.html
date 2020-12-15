@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert WebScope page to non-flash OpenSeadragon Viewer</title>
+</head>
+<body>
+    <div>
+      <h2>How to use webscope_to_openseadragon.js</h2>
+      <p>
+      <ol>
+        <li>Navigate to a webpage with an Aperio WebViewer whole slide image (.svs file)</li>
+        <li>You will probably see a Flash Player error unless you've enabled Flash for the site previously</li>
+        <li>Open the Developer Tools in your browser (F12)</li>
+        <li>In the console window, paste the following code:
+        <p><pre>
+        var s = document.createElement('script');s.src="https://pearcetm.github.io/webscope_to_openseadragon/webscope_to_openseadragon.js";document.head.append(s);
+        </pre></p></li>
+      </ol>
+      </p>
+    </div>
+    
+    <section class="footer">
+      <footer>
+        <span class="footer-section-title">
+          Authors:
+        </span>
+        <span class="footer-section-text">
+        		<br />
+            Thomas Pearce, MD, PhD
+        </span>
+        <br />
+        <span class="footer-section-title">
+          Source code:
+        </span>
+        <span class="footer-section-text">
+          Visit our github project page &nbsp
+          <a href="https://github.com/pearcetm/webscope_to_openseadragon" target="_blank">
+            <i class="fab fa-2x fa-github-square"></i>
+          </a>
+        </span>
+        <br /><br />
+        <span class="footer-section-title">
+          Copyright:
+        </span>
+        <span class="footer-section-text">
+          webscope_to_openseadragon is licensed under the BSD license in concordance with the OpenSeadragon license</a>.
+        </span>
+        <br /><br />
+      </footer>
+    </section>
+  </div>
+</body>
