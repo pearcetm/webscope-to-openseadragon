@@ -3,7 +3,7 @@ To apply this script to a page running Aperio WebViewer, paste the line below in
 var s = document.createElement('script');s.src="https://pearcetm.github.io/webscope_to_openseadragon/webscope_to_openseadragon.js";document.head.append(s);
 
 */
-var openseadragonImagePath = 'https://pearcetm.github.io/webscope_to_openseadragon/images/';
+var openseadragonImagePath = 'https://pearcetm.github.io/webscope-to-openseadragon/images/';
 
 if (!console || !console.log) console = { log: function () { } };
 window.setTimeout(load_dependencies, 0);
