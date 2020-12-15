@@ -1,5 +1,5 @@
 /*
-To apply this script to a page running Aperio WebViewer, paste the line below into the browser's debugger console
+To apply this script to a page running Aperio WebScope, paste the line below into the browser's debugger console
 var s = document.createElement('script');s.src="https://pearcetm.github.io/webscope-to-openseadragon/webscope_to_openseadragon.js";document.head.append(s);
 
 */
